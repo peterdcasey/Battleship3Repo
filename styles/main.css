@@ -1,0 +1,66 @@
+/* My styles file */
+button {
+    font-size: 18px;
+}
+
+input {
+    font-size: 18px;
+}
+
+body {
+    background-color: black;
+}
+
+div#board {
+    position: relative;
+    width: 1024px;
+    height: 863px;
+    margin: auto;
+    background: url("../images/board.jpg") no-repeat;
+}
+
+div#messageArea {
+    position: absolute;
+    top: 30px;
+    left: 180px;
+    color: rgb(83, 175, 19);
+    font-size: 25px;
+}
+
+.hit {
+    background: url("../images/ship.png") no-repeat center center;
+}
+
+.miss {
+    background: url("../images/miss.png") no-repeat center center;
+}
+
+table {
+    border-spacing: 0px; 
+    /* could use border-collapse instead */
+    /* border-collapse: collapse; */
+    position: absolute;
+    left: 173px;
+    top: 98px;
+}
+
+td {
+    width: 94px;
+    height: 94px;
+}
+
+form {
+    position: absolute;
+    bottom: -20px;
+    /* top:10px; */
+    right: 175px;
+    padding: 15px;
+    background-color: rgb(83, 175, 19);
+}
+
+form input {
+    background-color: rgb(152, 207, 113);
+    border-color: rgb(83, 175, 19);
+    font-size: 1em;
+}
+
